@@ -1,0 +1,20 @@
+brain-tumor-detection/
+├── frontend/                 # React frontend
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── Navbar.tsx
+│   │   ├── pages/
+│   │   │   ├── Home.tsx
+│   │   │   ├── About.tsx
+│   │   │   └── Team.tsx
+│   │   ├── App.tsx
+│   │   ├── main.tsx
+│   │   └── index.css
+│   ├── package.json
+│   └── vite.config.ts
+│
+└── backend/                  # Flask backend
+    ├── app.py
+    ├── vgg_unfrozen.h5      # Your trained model
+    └── uploads/             # Directory for uploaded images
